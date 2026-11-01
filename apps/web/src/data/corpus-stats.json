@@ -1,0 +1,26 @@
+{
+  "executable": 2530,
+  "windowed": 76,
+  "onDisk": 7015,
+  "quarantined": 4485,
+  "plugins": 80,
+  "playbookPacks": 63,
+  "playbooks": 88,
+  "marketplaceItems": 7183,
+  "categories": {
+    "application": 74,
+    "cloud": 235,
+    "data-exfil": 12,
+    "endpoint": 1978,
+    "identity": 144,
+    "network": 63,
+    "threat-anomaly": 24
+  },
+  "generatedFrom": [
+    "services/fusion/app/data/detection_ruleset.json",
+    "services/fusion/app/data/windowed_ruleset.json",
+    "marketplace/index.json",
+    "docs/detections/truth-table.md"
+  ],
+  "regenerateWith": "python3 scripts/generate_corpus_stats.py"
+}
